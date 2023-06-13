@@ -200,6 +200,7 @@ function ComputeJoDeductions() {
     var joPhic = joEdtPayroll.find('#jo_phic').val().replace(',', '');
     var joGSIS = joEdtPayroll.find('#jo_gsis').val().replace(',', '');
     var joPagibigLoan = joEdtPayroll.find('#jo_pagibigloan').val().replace(',', '');
+    var joSSS = joEdtPayroll.find('#jo_sss').val().replace(',', '');
     var joManualDeduction = joEdtPayroll.find('#jo_manual_deduction').val().replace(',', '');
     var joManualAbsentDays = joEdtPayroll.find('#jo_manual_no_deduction').val().replace(',', '');
     var joDeduction = ((+joMinutesLate + (480 * +joAbsentDays)) * (((+joSalary / +joWorkingDays) / 8) / 60));
@@ -222,7 +223,7 @@ function ComputeJoDeductions() {
     var joGrossAmount = roundOff((+salaryReal + +joAdjustment) - +joDeduction);
 
     joGrossAmount = roundOff(+joGrossAmount * +joPremium);
-    var joTotalDeduction = roundOff(+joEWT + +joProfTax + +joCoop + +joOtherAdjustments + +joPagibig + +joPhic + +joGSIS + +joPagibigLoan);
+    var joTotalDeduction = roundOff(+joEWT + +joProfTax + +joCoop + +joOtherAdjustments + +joPagibig + +joPhic + +joGSIS + +joPagibigLoan + +joSSS);
     var joNetPay = roundOff(+joGrossAmount - +joTotalDeduction);
 
     joEdtPayroll.find('#jo_deduction').val((+joDeduction).toLocaleString());
