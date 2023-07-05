@@ -1,0 +1,170 @@
+﻿.wrapper .content-wrapper {
+    min-height: calc(100vh - calc(3.5rem + 1px) - calc(3.5rem + 1px) - calc(7.125rem + 1px) - calc(2.75rem + 1px)) !important;
+    background-color: #e6e8f0;
+}
+
+.content-wrapper {
+    padding-top: 10px !important;
+}
+
+.card.employee-list {
+    height: calc(100vh - calc(3.5rem + 1px) - calc(3.5rem + 1px) - calc(7.125rem + 1px) - calc(2.75rem + 1px) - calc(0.625rem + 1px) - calc(1rem + 1px)) !important;
+    font-size: 13px !important;
+}
+
+.pdf-container {
+    height: calc(100vh - calc(3.5rem + 1px) - calc(3.5rem + 1px) - calc(7.125rem + 1px) - calc(2.75rem + 1px) - calc(0.625rem + 1px) - calc(1rem + 1px)) !important;
+}
+
+.card#card_payslips {
+    height: calc(100vh - calc(3.5rem + 1px) - calc(3.5rem + 1px) - calc(7.125rem + 1px) - calc(2.75rem + 1px) - calc(0.625rem + 1px) - calc(2.75rem + 1px)) !important;
+}
+
+.card.employee-payrolls {
+    min-height: 100px !important;
+}
+
+.card.employee-payrolls .card-body{
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.card .card-body.edit-payroll {
+    height: calc(100vh - calc(3.5rem + 1px) - calc(3.5rem + 1px) - calc(7.125rem + 1px) - calc(2.75rem + 1px) - calc(0.625rem + 1px) - calc(2rem + 1px) - calc(6.25rem + 1px) - calc(3.5rem + 1px) ) !important;
+    font-size: 13px !important;
+}
+
+.card.edit-payroll-header .card-header{
+    min-height: 56px !important;
+    padding: 13px !important;
+}
+
+.control-sidebar {
+    bottom: calc(3.5rem + 2px) !important;
+    position: absolute;
+    top: calc(calc(3.5rem + 1px) + calc(7.125rem + 1px) + calc(2.75rem + 1px)) !important;
+    z-index: 1031;
+}
+
+.content .container {
+    padding-top: 20px !important;
+}
+
+input.input-validation-error {
+    border-color: red;
+}
+
+select.input-validation-error {
+    border-color: red;
+}
+
+textarea.input-validation-error {
+    border-color: red;
+}
+
+.color-primary {
+    color: #007bff !important;
+}
+
+.color-danger {
+    color: #dc3545 !important;
+}
+
+.color-success {
+    color: #28a745 !important;
+}
+
+.color-warning {
+    color: #ffc107 !important;
+}
+
+.color-info {
+    color: #17a2b8 !important;
+}
+
+.k-alert-warning {
+    color: #1F2D3D !important;
+    background: rgba(249, 255, 168, 0.3) !important;
+    border-color: #f4ff5e !important;
+}
+
+.card-outline.card-warning .card-header {
+    background: rgba(255, 193, 7, 0.3) !important;
+}
+
+.card-outline.card-info .card-header {
+    background: rgba(23, 162, 184, 0.3) !important;
+}
+
+.card-outline.card-success .card-header {
+    background: rgba(40, 167, 69, 0.3) !important;
+}
+
+.card-outline.card-primary .card-header {
+    background: rgba(0, 123, 255, 0.3) !important;
+}
+
+label.error {
+    color: #dc3545 !important;
+}
+
+.h-30{
+    height: 30px !important;
+}
+
+.datepicker-inline {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.datepicker table {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.datepicker-days table tr{
+    height: 28px !important;
+}
+
+.other_deductions table{
+    table-layout: fixed !important;
+    width: 100% !important;
+}
+
+.small-box {
+    margin: 0px !important;
+    height: 100% !important;
+}
+
+.small-box#payroll_lists {
+    width: 115px !important;
+    margin-left: 5px !important;
+}
+
+.loading {
+    pointer-events: none !important;
+    cursor: wait !important;
+}
+
+tr.my-height{
+    min-height: 15px !important;
+    max-height: 30px !important;
+}
+
+.iframe-container {
+    position: relative;
+    /*padding-bottom: 37.5%;*/
+    padding-bottom: calc(100vh - calc(3.5rem + 1px) - calc(3.5rem + 1px) - calc(7.125rem + 1px) - calc(2.75rem + 1px) - calc(0.625rem + 1px) - calc(1rem + 1px) - calc(1.3rem + 1px)) !important;
+    height: 0;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
